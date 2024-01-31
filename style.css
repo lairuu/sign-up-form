@@ -1,0 +1,55 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url(assets/Norse-Bold.otf);
+}
+
+a, 
+a:visited {
+    color: white;
+}
+.left-side {
+    width: 30vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    font-family: 'Norse-Bold';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.odin-logo {
+    font-size: 120px;
+    position: absolute;
+    width: 30vw;
+    top: 25vh;
+    background-color: #00000065;
+    color: white;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.left-side p {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.left-side h1 {
+    margin: 0;
+    padding-top: 50px;
+}
+
+.left-side .background-image {
+    width: 30vw;
+    height: 100vh;
+}
