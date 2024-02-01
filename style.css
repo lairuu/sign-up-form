@@ -51,6 +51,24 @@ a:visited {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+label, 
+input {
+    font-family: 'Lato', sans-serif;
+}
+
+
+label {
+    color: rgb(122, 122, 122);
+    font-size: 50px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+input {
+   
+}
+
 .left-side h1 {
     margin: 0;
     padding-top: 50px;
@@ -77,6 +95,7 @@ form {
     padding-top: 60px;
     padding-bottom: 60px;
     padding-left: 120px;
+    margin-bottom: 90px;
 }
 
 .right-side ul {
@@ -97,14 +116,55 @@ form {
 }
 
 .right-side input {
-    height: 90px;
+    height: 110px;
     width: 800px;
-    border: 2px solid rgb(186, 186, 186);
+    border: 2px solid #E5E7EB;
     border-radius: 15px;
+    font-size: 65px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+    font-weight: 400;
 }
 
 legend {
     width: fit-content;
     font-size: 120px;
     font
+}
+
+header {
+    font-size: 30px;
+    margin-top: 12vh;
+    margin-left: 3vw;
+    margin-right: 20vw;
+    margin-bottom: 10vh;
+}
+
+button {
+    height: 150px;
+    width: 750px;
+    font-size: 60px;
+    border-radius: 15px;
+    border: none;
+    background-color: #596D48;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.confirm {
+    padding-left: 4.8vw;
+}
+
+.confirm a, 
+.confirm a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+input:focus {
+    border-color: blue;
 }
