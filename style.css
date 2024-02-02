@@ -134,13 +134,12 @@ legend {
 }
 
 header {
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 12vh;
     margin-left: 3vw;
-    margin-right: 20vw;
+    margin-right: 30vw;
     margin-bottom: 10vh;
 }
-
 button {
     height: 150px;
     width: 750px;
@@ -161,10 +160,15 @@ button:hover {
 
 .confirm a, 
 .confirm a:visited {
-    color: black;
+    color: #596D48;
     text-decoration: none;
 }
 
 input:focus {
-    border-color: blue;
+    outline: none;
+    border: 2px solid blue;
+    box-shadow:rgba(0, 0, 0, 0.371) 5px 5px 10px;
+}
+legend {
+    font-size: 80px;
 }
